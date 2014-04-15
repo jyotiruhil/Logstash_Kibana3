@@ -253,7 +253,7 @@ sed -i -e "s|KibanaHost = '127.0.0.1'|KibanaHost = '0.0.0.0'|" KibanaConfig.rb
 
 # Install and configure Kibana3 frontend
 cd /var/www
-#wget https://download.elasticsearch.org/kibana/kibana/kibana-3.0.0milestone4.tar.gz
+wget https://download.elasticsearch.org/kibana/kibana/kibana-3.0.0milestone4.tar.gz
 wget https://download.elasticsearch.org/kibana/kibana/kibana-3.0.0milestone5.tar.gz
 tar zxvf kibana-*
 rm kibana-*.tar.gz
